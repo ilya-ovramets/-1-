@@ -6,7 +6,7 @@ if 'о' not in strries:
 if 'е' not in strries:
   print("Голосна (е) відсутня")
 if 'у' not in strries:
-  print("Голосна (у) відсутня")     
+  print("Голосна (у) відсутня")
 if 'и' not in strries:
   print("Голосна (и) відсутня")  
 if 'і' not in strries:
