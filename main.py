@@ -7,4 +7,4 @@
 #import test;
 #import helper;
 # from laba5 import task1;
-from laba6 import task2;
+from laba6 import task1;

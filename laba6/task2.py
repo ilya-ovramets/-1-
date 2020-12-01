@@ -18,7 +18,7 @@ while i < len(text):
 		# Смотрим на конец слова
 		if (sym_dict.find(text[i + 1]) > 0):
 			last_letter = text[i:i+1];
-			# Заменяем внутри строки на нужное значение первую букву слова
+			# Заменяем внутри строки на нужное значение первую #букву слова
 			text = text[:first_letter_index] + last_letter + text[first_letter_index+1:];
 			# Заменяем внутри строки на нужное значение последнюю букву слова
 			text = text[:i] + first_letter + text[i+1:];
