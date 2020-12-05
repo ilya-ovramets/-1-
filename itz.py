@@ -51,7 +51,7 @@ while True:
       if summ == 0:
         break
       oper=input('Виберіть операцію + чи - ==>');
-      proc=int(input('Введіть вітсоток на який слід збільшити   чи зменшити суму->'));
+      proc=float(input('Введіть вітсоток на який слід збільшити   чи зменшити суму->'));
       _proc=summ/100*proc
       if oper == '+':
         rez=summ+_proc
@@ -99,10 +99,31 @@ while True:
     rvk=zx/zq
     print("Рентабельність власного капіталу",rvk)
     input('Нажміть Enter для продовження');
-	if s == 8:
+  if s == 8:
+    class podat:
+      fizdoh= 18;
+      vs=1.5;
+      pdv=20
+      pdpdoh=18
+      zempod=0.1  #0.1-3
+      epfop=3    #3-5
 
-
-
-
+    a1=podat()         #Екземпляр 1 класу податок
+    a2=podat()         #Екзимпляр 2 класу податок 
+    
+    a1.fizdoh = 18
+    a1.vs = 1.5
+    a1.pdv = 20
+    a1.pdpdoh = 18
+    a1.zempod = 0.1
+    a2.zempod = 3
+    a1.epfop = 3
+    a2.epfop = 5
+    print("Податок на фізичний дохід ", a1.fizdoh, "%", sep="")
+    print("Воєнний збір ", a1.vs, "%", sep="")
+    print("Податок на додану вартість ",a1.pdv, "%", sep="")
+    print("Податок із пасивного доходу ",a1.pdpdoh, "%", sep="")
+    print("Земельний податок від ", a1.zempod, " до ", a2.zempod, "%", sep="")
+    print("Єфиний податок для фопів від ", a1.epfop, " до ", a2.epfop, "%", sep="")
 
  
