@@ -17,7 +17,3 @@ for i in range(len(nemes)):
 #
 #print(text[::-1])
 """
-s = int(input('Виберіть пункт'))
-
-if s == 1:
-	
